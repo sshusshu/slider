@@ -1,57 +1,51 @@
 const moveTarget = document.querySelector('body');
 const totalHeight = moveTarget.clientHeight;
 let request;
-let vecY = 0,curY = 0,accel=0.96;
-let dy,oy = 0;
+let tmpY = 0,accel=0.97;
+let totalY = 0;
 
+console.dir(moveTarget)
 
 const onWheel = function(e){
-    const delta = e.wheelDelta || -e.deltaY
-    startAnimate(delta*0.1)
-    //console.log(delta)
+    let delta = e.wheelDelta || -e.deltaY; // -120 || -4
+    if(delta < 0){
+        delta = -20
+    }else if(delta > 0){
+        delta = 20
+    }
+    startAnimate(delta); // -12 || -4
 }
 
-const startAnimate = function(d){
-    vecY = d;
-    window.cancelAnimationFrame(request);
+const startAnimate = function(delta){
+    tmpY = delta;  // -12 || -4
+    window.cancelAnimationFrame(request); // 애니메이션 취소
     animate();
 }
 
 const animate = function(){
-    request = window.requestAnimationFrame(animate);
-    vecY *= accel;
-    oy += vecY;
-    movePosition(oy);
+    request = window.requestAnimationFrame(animate); // 애니메이션 시작
+    tmpY *= accel; //  -12 || -4 에 accel을 곱해서 점점 멈춤
+    totalY += tmpY; // animate가 request되는 동안의 tmpY를 계속 더함
+    movePosition(totalY);
 
-    if(Math.abs(vecY) < 1) {
+    if(Math.abs(tmpY) < 1) { // 움직임이 둔해지면 애니메이션을 멈춤
         window.cancelAnimationFrame(request);
-        dy = oy;
     }
 }
 
 const movePosition = function(y){
-    // if(y>=0){
-    //     y = dy = oy = vecY = 0;
-    // }else if(y<=totalHeight){
-    //     y = dy = oy = totalHeight;
-    //     vecY = 0;
-    // }
-    curY = Math.round(y)
-    moveTarget.style.transform =`translateY(${curY}px)`
-}
-
-
-
-
-const moveSlide = function(){
-    request = window.requestAnimationFrame(moveSlide);
-    oy += 0.1*(dy - oy);
-    movePosition(oy);
-    if(Math.abs(dy - oy ) < 0.1) {
-        window.cancelAnimationFrame(request);
-        oy = dy;
-        movePosition(oy);
+    //console.log(y)
+    if(y>=0){
+        y = totalY = tmpY = 0;
     }
+    // else if(y<=totalHeight){
+    //     y = totalY = totalHeight;
+    //     tmpY = 0;
+    // }
+    moveTarget.style.transform =`translateY(${Math.round(y)}px)`
 }
+
+
+
 
 window.addEventListener('wheel',onWheel)

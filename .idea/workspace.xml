@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7ca610fa-57c1-4cae-acb6-5920400f34c4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1pbJVHl4dz3oCr1k53mQwWtTB80" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/airpadpro" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/airpadpro" />
+      <recent name="$PROJECT_DIR$/airpad/js" />
+      <recent name="$PROJECT_DIR$/airpad/img" />
+      <recent name="$PROJECT_DIR$/airpad" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/custom-scroll/img" />
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$/scss" />
+      <recent name="$PROJECT_DIR$/img" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="NodeJSConfigurationType">
+      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSProfilingRunConfigurationExtension">
+        <profiling log-folder="/." />
+      </EXTENSION>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ca610fa-57c1-4cae-acb6-5920400f34c4" name="Default Changelist" comment="" />
+      <created>1615445878460</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615445878460</updated>
+      <workItem from="1615445879547" duration="3120000" />
+      <workItem from="1615536892910" duration="571000" />
+      <workItem from="1615541150888" duration="144000" />
+      <workItem from="1616733591989" duration="12999000" />
+      <workItem from="1616997156570" duration="552000" />
+      <workItem from="1617254939895" duration="3223000" />
+      <workItem from="1617259319357" duration="6317000" />
+      <workItem from="1617272767069" duration="359000" />
+      <workItem from="1617344262041" duration="8392000" />
+    </task>
+    <task id="LOCAL-00001" summary="sshu: 기초 틀 잡기">
+      <created>1615449606654</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615449606654</updated>
+    </task>
+    <task id="LOCAL-00002" summary="sshu: 커스텀 스크롤">
+      <created>1616748450932</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616748450932</updated>
+    </task>
+    <task id="LOCAL-00003" summary="sshu: 버벅임 수정">
+      <created>1616752120381</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616752120381</updated>
+    </task>
+    <task id="LOCAL-00004" summary="sshu: 애플 패럴럭스 구현">
+      <created>1617272646668</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1617272646668</updated>
+    </task>
+    <task id="LOCAL-00005" summary="sshu: 애플 패럴럭스 구현">
+      <created>1617273030544</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1617273030544</updated>
+    </task>
+    <task id="LOCAL-00006" summary="sshu: 애플 패럴럭스 구현">
+      <created>1617355822806</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1617355822806</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="sshu: 기초 틀 잡기" />
+    <MESSAGE value="sshu: 커스텀 스크롤" />
+    <MESSAGE value="sshu: 버벅임 수정" />
+    <MESSAGE value="sshu: 애플 패럴럭스 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="sshu: 애플 패럴럭스 구현" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="957" y="264" key="CommitChangelistDialog2" timestamp="1617355822632">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="957" y="264" key="CommitChangelistDialog2/0.23.2560.1337@0.23.2560.1337" timestamp="1617355822632" />
+    <state x="970" y="478" key="EditFileWatcherDialog" timestamp="1615447898273">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="970" y="478" key="EditFileWatcherDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1615447898273" />
+    <state x="1225" y="619" key="Github.Dialog.Accounts.Choose" timestamp="1617355826697">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1225" y="619" key="Github.Dialog.Accounts.Choose/0.23.2560.1337@0.23.2560.1337" timestamp="1617355826697" />
+    <state x="819" y="332" key="SettingsEditor" timestamp="1616734519602">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="819" y="332" key="SettingsEditor/0.23.2560.1337@0.23.2560.1337" timestamp="1616734519602" />
+    <state x="980" y="429" key="Vcs.Push.Dialog.v2" timestamp="1617355824470">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="980" y="429" key="Vcs.Push.Dialog.v2/0.23.2560.1337@0.23.2560.1337" timestamp="1617355824470" />
+    <state x="1271" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617272618194">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1271" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.2560.1337@0.23.2560.1337" timestamp="1617272618194" />
+    <state x="1228" y="327" key="run.anything.popup" timestamp="1617355576912">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1228" y="327" key="run.anything.popup/0.23.2560.1337@0.23.2560.1337" timestamp="1617355576912" />
+  </component>
+</project>

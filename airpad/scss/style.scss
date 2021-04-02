@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+.scroll-container {
+  height: 100vh;
+  .scroll-sequence {
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -5;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .scroll-sequence__content {
+    .speak {
+       height:100vh;
+      &[data-scroll] {
+        // transition: opacity .3s;
+        transform: translatey(calc(var(--viewport-y) * 30vh));
+        opacity: calc(var(--visible-y));
+      }
+    }
+  }
+}
+
+
